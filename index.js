@@ -1,8 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './index.css';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(<App />);
+export { default as ChannelCard } from './channelcard';
+export { default as VideoCard } from './videocard';
+export { default as ChannelDetail } from './channelDetail';
+export { default as Feed } from './feed';
+export { default as Loader } from './loader';
+export { default as Navbar } from './Navbar';
+export { default as SearchBar } from './searchbar';
+export { default as VideoDetail } from './videodetails';
+export { default as SearchFeed } from './searchFeed';
+export { default as Videos } from './Videos';
+export { default as Sidebar } from './Sidebar';
